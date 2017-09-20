@@ -1,0 +1,47 @@
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+body{
+    background-color: #f3f3f3;
+    align-content: center;
+}
+.all_content{
+    width: 1400px;
+    height: 100%; /* высота для наглядности */
+    margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+}
+.gadget_panel{
+    background-color: #ffffff;
+    align-content: center;
+    height: 320px;
+}
+.gadget_items{
+    width: 730px;
+    height: 100%; /* высота для наглядности */
+    margin: 30px auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+}
+.gadget_item{
+    float: left;
+    margin: 70px 0px 0px 20px;
+}
+.catalog_panel{
+    background-color: #ffffff;
+    width: 94%;
+    height: 400px;
+    margin: 20px auto;
+    text-align: -webkit-center;
+}
+.catalog_baner{
+    width: 100%;
+    margin: 0px auto;
+}
+.catalog_form{
+    text-align: left;
+    margin: 10px auto;
+}
+.catalog_form span{
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+}
