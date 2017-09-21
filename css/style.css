@@ -89,6 +89,7 @@ a {
     margin: 10px auto;
     text-align: left;
 }
+
 .catalog_item{
     width: 190px;
     display: inline-block;
@@ -97,4 +98,10 @@ a {
 .catalog_item_video{
     height: 200px;
     background-color: lightslategrey;
+}
+footer{
+    text-align: center;
+}
+footer figure{
+    padding: 60px 0px 0px 0px;
 }
