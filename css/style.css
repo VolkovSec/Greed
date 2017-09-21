@@ -86,12 +86,11 @@ a {
 .catalog_items{
     background-color: #ffffff;
     width: 1310px;
-    height: 700px;
     margin: 10px auto;
     text-align: left;
 }
 .catalog_item{
-    width: 218px;
+    width: 190px;
     display: inline-block;
     margin: 20px 0px 0px 20px;
 }
