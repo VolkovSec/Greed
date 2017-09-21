@@ -7,6 +7,13 @@ body{
     background-color: #f3f3f3;
     align-content: center;
 }
+a {
+    text-decoration: none;
+}
+.icon{
+    height: 15px;
+    width: 15px;
+}
 .all_content{
     width: 1400px;
     height: 100%; /* высота для наглядности */
@@ -28,8 +35,8 @@ body{
 }
 .catalog_panel{
     background-color: #ffffff;
-    width: 94%;
-    height: 400px;
+    width: 1310px;
+    height: 350px;
     margin: 20px auto;
     text-align: -webkit-center;
 }
@@ -38,10 +45,56 @@ body{
     margin: 0px auto;
 }
 .catalog_form{
-    text-align: left;
-    margin: 10px auto;
+    margin: 20px 0px 0px 0px;
+    height: 30px;
 }
-.catalog_form span{
+.catalog_form_left_content{
+    float: left;
+    text-align: left;
+    height: 20px;   
+}
+.catalog_form_left_content span{
     display: inline-block;
     margin: 0px 0px 0px 15px;
+}
+.catalog_form_right_content{
+    text-align: right;
+    height: 50%;
+}
+.catalog_form_right_content span{
+    display: inline-block;
+}
+.button{
+    color: #fff;
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.catalog_nav{
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+.catalog_nav ul{
+    margin: 30px auto;
+    padding: 0px 0px 0px 0px;
+}
+.catalog_nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0px 15px;
+}
+.catalog_items{
+    background-color: #ffffff;
+    width: 1310px;
+    margin: 10px auto;
+    text-align: left;
+}
+.catalog_item{
+    width: 190px;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+}
+.catalog_item_video{
+    height: 200px;
+    background-color: lightslategrey;
 }
